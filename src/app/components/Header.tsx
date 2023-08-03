@@ -66,7 +66,7 @@ a{
     color: #000;
 }
 a:hover{
-    color: orange;
+    color: ${({theme}) => theme.colors.primary};
 }
 `;
 
