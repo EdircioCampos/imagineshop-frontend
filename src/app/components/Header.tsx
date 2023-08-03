@@ -46,7 +46,7 @@ const StyledHeader = styled.header`
 const StyledNavbar = styled.nav`
 ${Container};
 display: flex;
-align-itens: center;
+align-items: center;
 justify-content: space-between;
 
 `;

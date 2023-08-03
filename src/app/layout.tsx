@@ -7,6 +7,7 @@ import StyledJsxRegistry from './lib/registry'
 import { Montserrat } from 'next/font/google'
 import Header from './components/Header'
 import { ThemeProvider } from 'styled-components'
+import Footer from './components/footer'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 
@@ -35,6 +36,7 @@ export default function RootLayout({
           <StyledJsxRegistry>
             <Header />
             {children}
+            <Footer />
           </StyledJsxRegistry>
         </body>
       </ThemeProvider>
