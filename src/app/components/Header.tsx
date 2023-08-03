@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from '../../../public/logo.png';
 import ShoppingCartLogo from '../../../public/carrinho.png';
-
+import { Container } from "../styles/util";
 
 const Header = () => {
 
@@ -44,8 +44,7 @@ const StyledHeader = styled.header`
 `;
 
 const StyledNavbar = styled.nav`
-width: 1140px;
-margin:0 auto;
+${Container};
 display: flex;
 align-itens: center;
 justify-content: space-between;
